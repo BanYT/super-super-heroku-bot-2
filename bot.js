@@ -41,4 +41,4 @@ bot.on('message', msg => {
     if (command === "") {
 });
 
-bot.login("BOT_TOKEN")
+bot.login("process.env.token")
